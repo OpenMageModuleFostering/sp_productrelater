@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sp_Productrelater</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Mass update quantity through product grid</summary>
+    <description>Mass update of product quantities from product grid(Manage Products) page at Magento Backend</description>
+    <notes>This extension only work for simple products</notes>
+    <authors><author><name>ps_patel</name><user>ps_patel</user><email>pspatel5101987@gmail.com</email></author></authors>
+    <date>2013-10-22</date>
+    <time>07:10:53</time>
+    <contents><target name="magelocal"><dir name="Sp"><dir name="Productrelater"><dir name="Block"><dir name="Catalog"><dir name="Product"><file name="Grid.php" hash="0af4dcf00c43c92b51f1b471f8bbc834"/></dir><file name="Product.php" hash="3767b0b5cd73c0319688430050213df6"/></dir><dir name="Widget"><dir name="Grid"><dir name="Column"><dir name="Renderer"><file name="Number.php" hash="4133ea20c437a2fb69cefb15ecad8ca7"/></dir></dir><file name="Column.php" hash="b22a08be8c793f0497320a9c91d1e425"/><file name="Massaction.php" hash="e4f7104fd6a5c36ca352d8b77366cd10"/></dir><file name="Grid.php" hash="1952b97e918af427094be147bf92880e"/></dir></dir><dir name="Helper"><file name="Data.php" hash="a6db43079ebb5c29d7bda6e95d8c40bf"/></dir><dir name="Model"><dir name="Resource"><dir name="Eav"><dir name="Mysql4"><dir name="Product"><file name="Collection.php" hash="23770fb20b606c1e28b698019ffa1266"/></dir></dir></dir></dir></dir><dir name="controllers"><dir name="Catalog"><file name="ProductController.php" hash="0ba325219fbada580bbf22dceb3030aa"/></dir></dir><dir name="etc"><file name="config.xml" hash="c3f057178de0419582fbadbc4b5663ac"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="sp_productrelater.xml" hash="adefee2447fd69297c2386ab1ef8597a"/></dir><dir name="template"><dir name="sp"><dir name="productrelater"><dir name="catalog"><dir name="product"><file name="grid.phtml" hash="5564eb485866e6664f09e759ca3d2476"/></dir><file name="product.phtml" hash="f0f3eb05a41de4274937c7f109321529"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sp_Productrelater.xml" hash="f5e5a9b486469c75404d842864ca9ed8"/></dir></target><target name="mage"><dir name="js"><dir name="Sp"><dir name="productrelater"><file name="egsupplemental.js" hash="22e901dc1b8b22ae69c4c6241781c783"/><file name="jquery-1.9.1.min.js" hash="bcaf50298ada678da29e7cfa62470db5"/><file name="relatergrid.js" hash="c0bca1678f601975fff0c0daab8f37c9"/><dir name="resources"><dir name="css"><file name="productrelater.css" hash="a219b0e656329f2407835dbe346f81d3"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

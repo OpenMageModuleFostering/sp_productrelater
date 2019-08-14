@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addJs">
+                <script>Sp/productrelater/jquery-1.9.1.min.js</script>
+            </action>
+            <action method="addJs">
+                <script>Sp/productrelater/relatergrid.js</script>
+            </action> 
+            <action method="addJs">
+                <script>Sp/productrelater/egsupplemental.js</script>
+            </action>
+            <action method="addItem">
+                <type>js_css</type>
+                <name>Sp/productrelater/resources/css/productrelater.css</name>
+            </action>
+        </reference> 
+    </default>
+</layout>   
