@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Sp_Productrelater",
+    "name": "OpenMageModuleFostering\/Sp_Productrelater",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Mass update quantity through product grid",
     "authors": [
-    {
-        "name": "ps_patel",
-        "email": "pspatel5101987@gmail.com"
-    }
-],
+        {
+            "name": "ps_patel",
+            "email": "pspatel5101987@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
